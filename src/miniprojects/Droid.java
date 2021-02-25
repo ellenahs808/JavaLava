@@ -11,6 +11,7 @@ public class Droid {
         batteryLevel = 100;
     }
 
+
     //main function
     public static void main(String[] args) {
         Droid newDroid = new Droid("Codey");

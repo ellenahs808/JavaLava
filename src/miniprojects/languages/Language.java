@@ -35,18 +35,18 @@ public class Language {
 
 
         //above statements could also be written like this:
-//        Language tagalog, chontal, mandarinChinese, burmese;
-//        tagalog = new Language("Tagalog", 77777, "Luzon, Visayas and Mindanao", "verb-subject-object");
-//        chontal = new Mayan("Chontal", 100000);
-//        mandarinChinese = new SinoTibetan("Mandarin Chinese", 20000);
-//        burmese = new SinoTibetan("Burmese", 150000);
-//
-//        //add in an array and call each of the languages with getInfo()
-//        Language[] allLanguages = {tagalog, chontal, mandarinChinese, burmese};
-//
-//        for (Language language : allLanguages) {
-//            language.getInfo();
-//        }
+        Language tagalog, chontal, mandarinChinese, burmese;
+        tagalog = new Language("Tagalog", 77777, "Luzon, Visayas and Mindanao", "verb-subject-object");
+        chontal = new Mayan("Chontal", 100000);
+        mandarinChinese = new SinoTibetan("Mandarin Chinese", 20000);
+        burmese = new SinoTibetan("Burmese", 150000);
+
+        //add in an array and call each of the languages with getInfo()
+        Language[] allLanguages = {tagalog, chontal, mandarinChinese, burmese};
+
+        for (Language language : allLanguages) {
+            language.getInfo();
+        }
 
     }
 

@@ -15,7 +15,7 @@ class Ramen extends Noodle {
     }
 
     public String onlyRamen() {
-        return "Add boiled eggs cause it's my fave!";
+        return "Add boiled eggs cause it's my fave! This should only work when instantiated with Ramen class!";
     }
 
 }

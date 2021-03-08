@@ -25,14 +25,25 @@ class Noodle {
 
     public static void main(String[] args) {
 
-        Noodle spag;
-        spag = new Spaghetti();
-        // ramen = new Ramen();
-//        Ramen ramen = new Ramen();
-//        pho = new Pho();
+        Noodle spag, pho, ramen;
+//        Noodle spag, pho;
 
-        System.out.println(spag.getCookPrep());
-//        System.out.println(ramen.onlyRamen());
+        spag = new Spaghetti();
+        pho = new Pho();
+        ramen = new Ramen();
+
+//        Ramen ramen = new Ramen();
+//        System.out.println(ramen.onlyRamen()); // can only access onlyRamen method if instantiated as a subclass and not a super class
+
+//        System.out.println(spag.getCookPrep());
+
+        //create an array and add spag, pho and ramen
+        Noodle[] allTheNoodles = {spag, pho, ramen};
+
+        //iterate through the array and use getCookPrep() method
+        for (Noodle noodle : allTheNoodles) {
+            System.out.println(noodle.getCookPrep());
+        }
 
     }
 

@@ -1,6 +1,6 @@
 package miniprojects.polymorphism;
 
-public class Noodle {
+class Noodle {
 
     protected double lengthInCentimeters;
     protected double widthInCentimeters;
@@ -25,14 +25,14 @@ public class Noodle {
 
     public static void main(String[] args) {
 
-        Noodle spag, pho;
+        Noodle spag;
         spag = new Spaghetti();
         // ramen = new Ramen();
-        Ramen ramen = new Ramen();
-        pho = new Pho();
+//        Ramen ramen = new Ramen();
+//        pho = new Pho();
 
         System.out.println(spag.getCookPrep());
-        System.out.println(ramen.onlyRamen());
+//        System.out.println(ramen.onlyRamen());
 
     }
 

@@ -10,7 +10,7 @@ public class Classname {
         int val1    =  s_name.nextInt();			//int
         float val2  =  s_name.nextFloat();			//float
         double val3 =  s_name.nextDouble();			//double
-        string name =  s_name.nextLine();			//string
+        String name =  s_name.nextLine();			//string
         char ch     =  s_name.nextLine().charAt(0);	//character
     }
 

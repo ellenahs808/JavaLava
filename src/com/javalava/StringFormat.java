@@ -17,7 +17,7 @@ public class StringFormat {
             for (int i = 0; i<3; i++) {
                 String s1 = sc.next();
                 int x = sc.nextInt();
-                System.out.format("%-15s%03d%n", s1, x);
+                System.out.format("%-15s%03d%n", s1, x);   // explanation on line 6-11
             }
             System.out.println("================================");
     }
